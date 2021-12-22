@@ -208,7 +208,7 @@ const requestListener = function(req, res) {
 const server = http.createServer(requestListener); 
 server.listen(8080);
 
-client.login("OTIyNTAyNjgxOTg4MzA0OTU3.YcCZkg.qh6Na4I3Y4Gokz0sD-WPCucfjDs")
+client.login("")
 
 
 client.on('message', async (message) => {
